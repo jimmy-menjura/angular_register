@@ -98,7 +98,10 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "styles": [],
+            "styles": [
+              "styles.scss",
+              "node_modules/ngx-toastr/toastr.css"
+            ],
             "scripts": [],
             "assets": [
               {
